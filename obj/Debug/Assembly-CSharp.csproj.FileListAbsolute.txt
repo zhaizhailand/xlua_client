@@ -1,0 +1,1 @@
+G:\unity_demo\xlua_client\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

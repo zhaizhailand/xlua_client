@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{370BDE1D-66AF-97D4-3814-3BF01A24725F}</ProjectGuid>
+    <ProjectGuid>{C16D9161-547B-2C58-20E9-8194E118996B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -92,12 +92,14 @@
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\XLua\Src\Utils.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\CustomUIFix\ParticleClip.cs" />
     <Compile Include="Assets\Scripts\XLua\Src\RawObject.cs" />
     <Compile Include="Assets\Scripts\XLua\Src\TemplateEngine\TemplateEngine.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\XLua\Gen\PackUnpack.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\XLua\Src\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\CustomUIFix\LoopScrollView.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\XLua\Src\LuaBase.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -120,7 +122,6 @@
     <Compile Include="Assets\Scripts\XLua\Src\StaticLuaCallbacks.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\ThirdPart\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\CustomUIFix\ParticleClip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdPart\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -146,6 +147,7 @@
     <None Include="Assets\ThirdPart\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\ThirdPart\XLua\Resources\perf\memory.lua.txt" />
     <None Include="Assets\ThirdPart\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resource\shaders\UI-Default.shader" />
     <None Include="Assets\ThirdPart\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Resource\shaders\Custom Particle Add.shader" />
     <None Include="Assets\ThirdPart\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
