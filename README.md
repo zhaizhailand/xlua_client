@@ -5,3 +5,5 @@
 ![hscrollview](https://user-images.githubusercontent.com/28888494/151478779-7055bc17-ca43-4c1a-88ab-e1cc3972a8be.gif)
 ![vscrollview](https://user-images.githubusercontent.com/28888494/151478949-7bc4a213-24e6-44df-85ab-6b54d40d58f0.gif)
 
+自适应大小窗口，如下图：
+![fitwindow2](https://user-images.githubusercontent.com/28888494/151528650-2de4c892-19d0-4f60-93ef-5c6b6e98d863.gif)
