@@ -45,7 +45,7 @@ public class LoopScrollView : MonoBehaviour
     //最大行/列数
     private int maxRowColumn = 0;
 
-    //可用item队列
+    //所有item列表
     private List<RectTransform> itemsPool = new List<RectTransform>();
 
     private bool init_suc = true;
@@ -55,7 +55,6 @@ public class LoopScrollView : MonoBehaviour
 
     private Vector2 leftUpperAnchor = new Vector2(0, 1);
     private Vector2 rightUpperAnchor = new Vector2(1, 1);
-
     private Vector2 leftBottomAnchor = new Vector2(0, 0);
 
 
@@ -84,7 +83,7 @@ public class LoopScrollView : MonoBehaviour
             contentRectTrans.anchorMin = leftUpperAnchor;
             contentRectTrans.anchorMax = rightUpperAnchor;
         }
-        Debug.Log("[loopscrollview] scrollType = "+ scrollType.ToString());
+       // Debug.Log("[loopscrollview] scrollType = "+ scrollType.ToString());
 
         InitLayout();
         tailRow = Mathf.CeilToInt(fixedCount / constriantCount) - 1;
@@ -299,7 +298,7 @@ public class LoopScrollView : MonoBehaviour
         while (-contentRectTrans.anchoredPosition.x <= headRow * sizeXY && headRow > 0)
         {
             //Debug.LogError("向左滑");
-            //将最后一行的item移动到前排
+            //将最后一列的item移动到前排
             int itemCount = constriantCount;
             if (tailRow >= maxRowColumn)
             {
