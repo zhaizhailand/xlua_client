@@ -40,6 +40,7 @@ public class LoopScrollView : MonoBehaviour
     private int tailIndex = 0;
 
     //每行/列显示rowCount个item
+    [Header("每行/列显示的item个数")]
     public int constriantCount = 0;
     //最大行/列数
     private int maxRowColumn = 0;
@@ -247,7 +248,7 @@ public class LoopScrollView : MonoBehaviour
         //向下滑
        while(contentRectTrans.anchoredPosition.y <= headRow * sizeXY && headRow > 0)
         {
-            Debug.LogError("向下滑");
+            //Debug.LogError("向下滑");
             //将最后一行的item移动到前排
             int itemCount = constriantCount;
             if (tailRow >= maxRowColumn)
