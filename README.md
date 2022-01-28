@@ -6,4 +6,3 @@
 ![vscrollview](https://user-images.githubusercontent.com/28888494/151478949-7bc4a213-24e6-44df-85ab-6b54d40d58f0.gif)
 
 自适应大小窗口，如下图：
-![fitwindow](https://user-images.githubusercontent.com/28888494/151520745-db6c9848-0eb9-4309-94bf-13b7b10b5e0b.gif)
