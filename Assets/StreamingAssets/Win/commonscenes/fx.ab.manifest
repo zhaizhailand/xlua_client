@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 220495392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3678abea3d1520452bdfaa5dca5e08e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7403f3989780ee1a598205ff79f34322
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8781763b299f3a94590f1c7e514195b0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/CommonScenes/fx/ui/fx-ui-tm-chen01.prefab
+- Assets/AB_Resources/CommonScenes/fx/tex/fx-xulie-48-p.png
+- Assets/AB_Resources/CommonScenes/fx/tex/fx-wenli-41-p-d.png
+- Assets/AB_Resources/CommonScenes/fx/mat/fx-d-kuang-01-pz.mat
+- Assets/AB_Resources/CommonScenes/fx/mat/fx-d-kuang-02-pz.mat
+- Assets/AB_Resources/CommonScenes/fx/mat/fx-wenli-41-p-d-pz.mat
+- Assets/AB_Resources/CommonScenes/fx/tex/fx-d-kuang-02.tga
+- Assets/AB_Resources/CommonScenes/fx/tex/fx-d-kuang-01.tga
+- Assets/AB_Resources/CommonScenes/fx/mat/fx-xulie-48-d-pz.mat
+- Assets/AB_Resources/CommonScenes/fx/ui/fx-ui-tm-chen02.prefab
+Dependencies:
+- G:/unity_demo/xlua_client/Assets/StreamingAssets/Win/commonscenes/shaders.ab

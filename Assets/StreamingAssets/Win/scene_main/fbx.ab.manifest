@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3868850766
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1527adb7f88f20b7b556402171a8d35
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5937e09431016189c0902fe7ca525a33
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/Scene_Main/fbx/ground.prefab
+- Assets/AB_Resources/Scene_Main/fbx/tizi.prefab
+- Assets/AB_Resources/Scene_Main/fbx/Cube.prefab
+Dependencies:
+- G:/unity_demo/xlua_client/Assets/StreamingAssets/Win/scene_main/mat.ab

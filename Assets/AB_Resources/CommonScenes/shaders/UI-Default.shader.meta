@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cb7223aca2408c04598dd765cb6a7cef
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: commonscenes/shaders
+  assetBundleVariant: ab

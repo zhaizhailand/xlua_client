@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1359029869
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de5156c18c66b5e2024533d80416b88e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d58415ea7baf697a6ef53bbe2081dc38
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/Scene_Main/mat/red.mat
+- Assets/AB_Resources/Scene_Main/mat/green.mat
+Dependencies: []

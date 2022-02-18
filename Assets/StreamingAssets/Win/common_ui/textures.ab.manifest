@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2547893391
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8f1dd027e7141a543ad294cd22634a80
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1b7016859846e724748fb06ac491ca0c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/Common_UI/textures/rendertextest.renderTexture
+- Assets/AB_Resources/Common_UI/textures/loading/junzhu.png
+- Assets/AB_Resources/Common_UI/textures/loading/bg_2.png
+- Assets/AB_Resources/Common_UI/textures/loading/loading_bailong.png
+- Assets/AB_Resources/Common_UI/textures/loading/longxiang.png
+- Assets/AB_Resources/Common_UI/textures/qinnan_3_BG.png
+- Assets/AB_Resources/Common_UI/textures/loading/loading_houzi.png
+- Assets/AB_Resources/Common_UI/textures/guild_activity_bg.png
+- Assets/AB_Resources/Common_UI/textures/loading/moxia.png
+- Assets/AB_Resources/Common_UI/textures/loading/bg.png
+- Assets/AB_Resources/Common_UI/textures/loading/yueshi.png
+- Assets/AB_Resources/Common_UI/textures/qinnan_3_F.png
+- Assets/AB_Resources/Common_UI/textures/loading/loading_tianfeng.png
+- Assets/AB_Resources/Common_UI/textures/login/bg_3.png
+- Assets/AB_Resources/Common_UI/textures/loading/loading_xinyuehu.png
+- Assets/AB_Resources/Common_UI/textures/login/ren.png
+- Assets/AB_Resources/Common_UI/textures/loading/bg_1.png
+Dependencies: []

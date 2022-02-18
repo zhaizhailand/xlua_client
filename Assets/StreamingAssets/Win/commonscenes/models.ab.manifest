@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 4253958760
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 14fa9cd6dc1384b1d54a1070ef47be45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d58415ea7baf697a6ef53bbe2081dc38
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/CommonScenes/models/test/mats/test.mat
+Dependencies: []

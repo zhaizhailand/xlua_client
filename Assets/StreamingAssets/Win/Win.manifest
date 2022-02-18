@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3891087076
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: commonscenes/fx.ab
+      Dependencies:
+        Dependency_0: commonscenes/shaders.ab
+    Info_1:
+      Name: commonscenes/models.ab
+      Dependencies: {}
+    Info_2:
+      Name: commonscenes/shaders.ab
+      Dependencies: {}
+    Info_3:
+      Name: scene_main/fbx.ab
+      Dependencies:
+        Dependency_0: scene_main/mat.ab
+    Info_4:
+      Name: scene_main/mat.ab
+      Dependencies: {}
+    Info_5:
+      Name: common_ui/atlas.ab
+      Dependencies: {}
+    Info_6:
+      Name: common_ui/emoji.ab
+      Dependencies: {}
+    Info_7:
+      Name: common_ui/prefab.ab
+      Dependencies:
+        Dependency_0: commonscenes/fx.ab
+        Dependency_1: commonscenes/models.ab
+        Dependency_2: common_ui/atlas.ab
+        Dependency_3: common_ui/textures.ab
+    Info_8:
+      Name: common_ui/textures.ab
+      Dependencies: {}

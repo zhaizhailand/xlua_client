@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2006516352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af7dbfccea1e961d0dea5422ecedd835
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1848cfd019ebe6ef89967c6f90f2a3d4
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/CommonScenes/shaders/UI-Default.shader
+- Assets/AB_Resources/CommonScenes/shaders/Custom Particle Add.shader
+Dependencies: []

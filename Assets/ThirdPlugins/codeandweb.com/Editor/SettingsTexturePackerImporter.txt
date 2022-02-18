@@ -1,0 +1,12 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/AB_Resources/Common_UI/atlas/common.tpsheet
+- Assets/AB_Resources/Common_UI/atlas/login.tpsheet
+textureFileNames:
+- Assets/AB_Resources/Common_UI/atlas/common.png
+- Assets/AB_Resources/Common_UI/atlas/login.png
+normalmapFileNames:
+- 
+- 
+enableDebugOutput: 0
