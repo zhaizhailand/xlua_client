@@ -1,3 +1,18 @@
+--[[
+    Title:
+        Lua UI 框架
+
+    Description:
+        所有类的基类
+
+    Author : Zhaiyurong
+
+    Date : 2022.2
+
+    Modify:
+
+]]
+
 local TypeClass = require "common/TypeClass"
 local BaseClass = {}
 

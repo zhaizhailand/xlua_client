@@ -1,10 +1,9 @@
-
 --[[
     Title:
         Lua UI 框架
 
     Description:
-        常用方法
+        加载所有View
 
     Author : Zhaiyurong
 
@@ -13,3 +12,5 @@
     Modify:
 
 ]]
+
+require "View/LoginView"

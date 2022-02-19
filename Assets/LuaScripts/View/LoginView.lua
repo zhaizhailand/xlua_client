@@ -1,3 +1,18 @@
+--[[
+    Title:
+        Lua UI 框架
+
+    Description:
+        登录界面
+
+    Author : Zhaiyurong
+
+    Date : 2022.2
+
+    Modify:
+
+]]
+
 LoginView = UIViewBase:New()
 
 function LoginView:OnInit()
