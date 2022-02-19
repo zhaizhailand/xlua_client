@@ -28,7 +28,7 @@ namespace AssetBundleFramework
         public static string AB_RESOURCE = "AB_Resources";
 
         //校验文件名称
-        public static string VERIFY_FILE_PATH = "VerifyFile.txt";
+        public static string VERIFY_FILE_PATH = "/VerifyFile.txt";
 
         /*定义拷贝lua文件的路径常量*/
         //定义拷贝lua文件的源目录（lua编辑区）

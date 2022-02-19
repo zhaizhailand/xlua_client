@@ -74,10 +74,24 @@ namespace HotFixFramework
 				yield break;
             }
 			//下载校验文件
-			string fileUrl = serverUrl + "/" + PathTool.VERIFY_FILE_PATH;
-			//using(UnityWebRequestAssetBundle)
-
-			yield return null;
+			string fileUrl = serverUrl + "/" + PathTool.GetPlatformName() + PathTool.VERIFY_FILE_PATH;
+			using(UnityWebRequest webReqrest = new UnityWebRequest(fileUrl))
+            {
+				DownloadHandlerBuffer dhb = new DownloadHandlerBuffer();
+				webReqrest.downloadHandler = dhb;
+				yield return webReqrest.SendWebRequest();
+				if(webReqrest.result == UnityWebRequest.Result.Success)
+                {
+					//下载成功
+					string content = webReqrest.downloadHandler.text;
+					//Debug.Log("校验文件内容：" + content);
+                }
+				else
+                {
+					//下载失败
+					Debug.LogError(GetType() + "/DownloadResourceAndCheckUpdate()/ 资源校验文件下载失败！ error = " + webReqrest.error + " url = " + fileUrl);
+                }
+            }
         }
 
     }
